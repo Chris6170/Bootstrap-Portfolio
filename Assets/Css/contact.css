@@ -1,0 +1,147 @@
+body{
+    background-image: url(../Pictures/contact.gif);
+    background-size: 50px;
+
+    height: 50%;
+    width: 50%;
+
+    background-size: 300px 300px ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 400px;
+    background-color: #E9E9EB
+
+   
+ 
+ 
+
+ 
+ 
+
+  
+}
+
+
+/* Main Css */
+
+
+.wrapper{
+    width: 980px;
+}
+
+h1{
+    margin-left: 200px;
+    font-family: cursive;
+}
+
+.navbar{
+   
+    background-color: rgba(148,37,44,.7)
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+ul{
+
+    margin-left: 530px;
+    font-family: cursive;
+}
+
+p{
+    font-weight: bolder;
+}
+
+
+
+
+#about{
+    color:rgba(148,37,44,.9);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    padding: 10px;
+    border-bottom: 4px solid black;
+}
+
+.aboutP{
+    background-color: rgba(205,133,63,.7);
+    
+    
+     
+}
+
+
+#mainPic{
+    height: 300px;
+    width: 300px;
+    margin-left: 17px;
+}
+
+
+
+#footer{
+    font-family: cursive;
+    text-align: center;
+    background-color: rgba(148,37,44,.7);
+    font-size: 20px;
+    border-top: 2px solid black;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+
+a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+
+/* Contact Css */
+
+#cPic{
+    z-index: -1;
+}
+
+#messageBx{
+    width: 300%;
+}
+
+#form{
+    margin: 0;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.sub2{
+    margin-top: 20px
+
+}
+
+#gitLink{
+   
+
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+  
+}
+
+.pContainer{
+position: relative;
+font-family: Arial;
+    
+}

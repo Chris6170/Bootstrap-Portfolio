@@ -1,10 +1,26 @@
 body{
     background-image: url(../Pictures/back.gif);
-    background-position: 50%;
+    background-color: #2995D6;
+   
+ 
+ 
+
+ 
+    height: 100%; 
+
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 /* Main Css */
+
+
+#quote{
+    margin-right: 200px;
+}
 
 
 .wrapper{
@@ -18,7 +34,7 @@ h1{
 
 .navbar{
    
-    background-color: rgba(205,133,63,.7)
+    background-color: rgba(234,234,237,.7)
 }
 
 .nav-link{
@@ -39,7 +55,7 @@ p{
 
 
 #about{
-    color:brown;
+    color:rgba(234,234,237,.9);
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -50,7 +66,7 @@ p{
 }
 
 .aboutP{
-    background-color: rgba(205,133,63,.7);
+    background-color: rgba(234,234,237,.7);
     
     
      
@@ -68,13 +84,15 @@ p{
 #footer{
     font-family: cursive;
     text-align: center;
-    background-color: rgba(205,133,63,.7);
+    background-color: rgba(234,234,237,.7);
     font-size: 20px;
-    border-top: 2px solid black;
+    border: 2px solid black;
     bottom: 0;
-    width: 100%;
-    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
+  
 
 
 a:hover{
