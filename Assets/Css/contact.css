@@ -145,3 +145,96 @@ position: relative;
 font-family: Arial;
     
 }
+
+@media only screen and (max-width: 420px) {
+    #about{
+        width: 211%;
+        
+    }
+    h1 {
+        font-size: 25px;
+        margin-left: 5px;
+        font-family: cursive;
+    }
+
+    ul {
+       
+        
+        margin-left: 100px;
+        
+       
+       
+    }
+
+  
+        .li1 {
+            margin-left: -75px;
+            color: black;
+        }
+
+        .li2 {
+      
+            color: black;
+        }
+
+
+
+        
+        .li3 {
+            color: black;
+            margin-left: 87px;
+        }
+
+        #mainPic {
+            height: 250px;
+            width: 250px;
+            margin-left: 84px;
+        }
+
+        .aboutP {
+
+            margin-top: 10px;
+            max-width: none;
+            flex: 50%;
+            background-color: rgba(234,234,237,.7);
+        }
+
+        h5{
+            font-size: 15px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+
+        #footer{
+            margin-left: 26%;
+        }
+
+        #quote {
+            margin-right: 5px;
+        }
+
+        body{
+
+            
+    height: 25%; 
+
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+        }
+
+        .navbar {
+            background-color: rgba(148,37,44,.7);
+            width: 200%;
+        }
+
+        ul{
+            margin-left: 211px;
+        }
+       
+    }

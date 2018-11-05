@@ -142,7 +142,7 @@ a:hover{
         #mainPic {
             height: 250px;
             width: 250px;
-            margin-left: 84px;
+            margin-left: 80px;
         }
 
         .aboutP {
@@ -151,6 +151,7 @@ a:hover{
             max-width: none;
             flex: 50%;
             background-color: rgba(234,234,237,.7);
+            font-size: 15px;
         }
 
         h5{
@@ -167,6 +168,10 @@ a:hover{
 
         #quote {
             margin-right: 5px;
+        }
+
+        img{
+            margin-left: 80px;
         }
 
         body{
