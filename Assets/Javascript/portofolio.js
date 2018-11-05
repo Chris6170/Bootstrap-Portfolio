@@ -80,7 +80,7 @@ $(document).ready(function () {
 
     })
 
-    var queryurl = "http://quotes.rest/qod.json";
+    var queryurl = "https://quotes.rest/qod.json";
 
     $.ajax({
         url: queryurl,
