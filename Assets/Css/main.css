@@ -101,6 +101,14 @@ a:hover{
     
 }
 
+#quote{
+
+    margin-right: 0px;
+
+}
+
+
+
 
 /* Media query */
 
@@ -153,6 +161,9 @@ a:hover{
             background-color: rgba(234,234,237,.7);
            
         }
+
+
+
         #test{
             font-size: 15px;
 

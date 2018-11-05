@@ -24,19 +24,27 @@ body{
 
 /* Main Css */
 
+.info{
+    margin-left: 230px;
+    margin-right: -230px;
+}
+
+
 
 .wrapper{
     width: 980px;
 }
 
 h1{
-    margin-left: 200px;
+    margin-left: 0px;
     font-family: cursive;
 }
 
 .navbar{
    
-    background-color: rgba(148,37,44,.7)
+    background-color: rgba(135,36,38,.7);
+    width: 200%;
+
 }
 
 .nav-link{
@@ -45,7 +53,7 @@ h1{
 
 ul{
 
-    margin-left: 530px;
+    margin-left: 300px;
     font-family: cursive;
 }
 
@@ -57,7 +65,7 @@ p{
 
 
 #about{
-    color:rgba(148,37,44,.9);
+    color:rgba(234,234,237,.9);
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -68,7 +76,7 @@ p{
 }
 
 .aboutP{
-    background-color: rgba(205,133,63,.7);
+    background-color: rgba(234,234,237,.7);
     
     
      
@@ -86,13 +94,15 @@ p{
 #footer{
     font-family: cursive;
     text-align: center;
-    background-color: rgba(148,37,44,.7);
+    background-color: rgba(234,234,237,.7);
     font-size: 20px;
-    border-top: 2px solid black;
+    border: 2px solid black;
     bottom: 0;
-    width: 100%;
-    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
+  
 
 
 a:hover{
@@ -101,52 +111,29 @@ a:hover{
     
 }
 
-
-/* Contact Css */
-
-#cPic{
-    z-index: -1;
+ul{
+    margin-left: 800px;
 }
 
-#messageBx{
-    width: 300%;
-}
 
-#form{
-    margin: 0;
-
-}
-
-img{
-    height: 200px;
-    width: 200px;
-}
-
-.sub2{
-    margin-top: 20px
-
-}
-
-#gitLink{
-   
-
-    clear: both;
-    background-color: black;
-    color: white;
-    padding: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-
-  
-}
-
-.pContainer{
-position: relative;
-font-family: Arial;
-    
-}
 
 @media only screen and (max-width: 420px) {
+    
+    .form-control {
+        display: block;
+        width: 70%;
+        height: calc(2.25rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
     #about{
         width: 211%;
         
