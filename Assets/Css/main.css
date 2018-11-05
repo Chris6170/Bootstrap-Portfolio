@@ -151,7 +151,11 @@ a:hover{
             max-width: none;
             flex: 50%;
             background-color: rgba(234,234,237,.7);
+           
+        }
+        #test{
             font-size: 15px;
+
         }
 
         h5{
