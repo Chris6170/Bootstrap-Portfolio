@@ -67,6 +67,11 @@ $(document).ready(function () {
 
         }
 
+        if (value === "https://github.com/Chris6170/liri-node-app") {
+            window.location = "https://github.com/Chris6170/liri-node-app"
+
+        }
+
 
 
 
